@@ -1,0 +1,29 @@
+{
+	"name": "@tunnel/cssom",
+	"type": "module",
+	"exports": {
+		"import": {
+			"types": "./.build/main.d.mts",
+			"default": "./.build/main.mjs"
+		},
+		"require": {
+			"types": "./.build/main.d.cts",
+			"default": "./.build/main.cjs"
+		}
+	},
+	"main": "./.build/main.cjs",
+	"module": "./.build/main.mjs",
+	"types": "./.build/main.d.ts",
+	"files": [".build"],
+	"scripts": {
+		"build": "unbuild"
+	},
+	"devDependencies": {
+		"@tunnel/tsconfig": "^0.0.0",
+		"@types/cssom": "^0.4.3",
+		"dprint": "^0.45.0",
+		"rrweb-cssom": "^0.6.0",
+		"typescript": "^5.3.3",
+		"unbuild": "^2.0.0"
+	}
+}
