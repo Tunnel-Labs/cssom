@@ -1,6 +1,6 @@
 {
 	"name": "@tunnel/cssom",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"type": "module",
 	"exports": {
 		"import": {
@@ -21,9 +21,8 @@
 	},
 	"devDependencies": {
 		"@tunnel/tsconfig": "^0.0.0",
-		"@types/cssom": "^0.4.3",
 		"dprint": "^0.45.0",
-		"rrweb-cssom": "^0.6.0",
+		"outdent": "^0.8.0",
 		"typescript": "^5.3.3",
 		"unbuild": "^2.0.0"
 	}

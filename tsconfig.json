@@ -1,3 +1,6 @@
 {
-	"extends": "@tunnel/tsconfig"
+	"extends": "@tunnel/tsconfig",
+	"compilerOptions": {
+		"lib": ["ES2015"]
+	}
 }

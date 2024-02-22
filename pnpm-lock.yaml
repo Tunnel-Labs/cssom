@@ -8,15 +8,12 @@ devDependencies:
   '@tunnel/tsconfig':
     specifier: ^0.0.0
     version: 0.0.0
-  '@types/cssom':
-    specifier: ^0.4.3
-    version: 0.4.3
   dprint:
     specifier: ^0.45.0
     version: 0.45.0
-  rrweb-cssom:
-    specifier: ^0.6.0
-    version: 0.6.0
+  outdent:
+    specifier: ^0.8.0
+    version: 0.8.0
   typescript:
     specifier: ^5.3.3
     version: 5.3.3
@@ -643,10 +640,6 @@ packages:
 
   /@tunnel/tsconfig@0.0.0:
     resolution: {integrity: sha512-GKW0ZroiwefrW4JJabOD/5NnqeMvK+iVgenlelp0/AS1saP7qTk7dWQ9PbWWkOhik8i6KHXoLPxtpiJKefbEWg==}
-    dev: true
-
-  /@types/cssom@0.4.3:
-    resolution: {integrity: sha512-cThQxtgHC2wyXp2gnDd4lh6EJfpmUADIJX613HcmFVwELw/gQya8Ok7EBkJ3g2z9G2N0NNZywXvjZ4A8dPWYFw==}
     dev: true
 
   /@types/estree@1.0.5:
@@ -1357,6 +1350,10 @@ packages:
       wrappy: 1.0.2
     dev: true
 
+  /outdent@0.8.0:
+    resolution: {integrity: sha512-KiOAIsdpUTcAXuykya5fnVVT+/5uS0Q1mrkRHcF89tpieSmY33O/tmc54CqwA+bfhbtEfZUNLHaPUiB9X3jt1A==}
+    dev: true
+
   /path-parse@1.0.7:
     resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==}
     dev: true
@@ -1743,10 +1740,6 @@ packages:
     hasBin: true
     optionalDependencies:
       fsevents: 2.3.3
-    dev: true
-
-  /rrweb-cssom@0.6.0:
-    resolution: {integrity: sha512-APM0Gt1KoXBz0iIkkdB/kfvGOwC4UuJFeG/c+yV7wSc7q96cG/kJ0HiYCnzivD9SB53cLV1MlHFNfOuPaadYSw==}
     dev: true
 
   /run-parallel@1.2.0:
